@@ -1,34 +1,16 @@
 {
-  "code":"200",
-  "message": "success",
-  "status": "OK",
-  "data": {
-  	"currentPageNumber": 1,
-  	"pageCapacity": 10,
-  	"totalCount": 10,
-  	"busStopList":[
-  		{
-  			"audioId":"audioId",
-  			"code": "stop1",
-  			"createdBy": "createdBy",
-  			"latitube": 10.0,
-  			"longitube": 11.0,
-  			"location": "Kor",
-  			"name": "Kor Stop",
-  			"onBoardedOn": "Kor boarded",
-  			"status": "Available",
-  			"stopId": 1,
-  			"updatedBy": "U1",
-  			"updatedDate": "U1",
-  			"busStopAnnouncementSet": {
-  				"announcementFileName": "announcementFileName",
-  				"announcementFilePath": "announcementFilePath",
-  				"id": 1,
-  				"busStopAnnouncement": {
-  					
-  				}
-  			}
-  		}
-  	]
-  }
+	"code": "200",
+	"message": "success",
+	"status": "OK",
+	"data": {
+		"currentPageNumber": 1,
+		"pageCapacity": 10,
+		"totalCount": 10,
+		"busStopList": [{
+			"audioId": "audioId",
+			"code": "stop1",
+			"createdBy": "createdBy",
+			"latitube": 10.0
+		}]
+	}
 }
